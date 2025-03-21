@@ -1,4 +1,8 @@
 ### Caesar cipher word groupings
+# 2 words are considered the same "grouping"
+# if each letter word A can be "caesar cipher" shifted
+# into the other word. e.g. abc can be shifted by 1 to 
+# become 'bcd'.
 
 def normalize(s):
   new_s = [''] * len(s)
